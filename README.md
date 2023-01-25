@@ -1,4 +1,4 @@
-# Soundwave - music playlist application
+# Soundwave - Music Playlist Application
 
 ## Description
 
@@ -18,5 +18,6 @@ An application that allows you to fetch data using Spotify API to create a playl
 
 ## Tools
 
-React - Framework
-SpotifyAPI
+- React
+- Framework
+- SpotifyAPI
