@@ -19,5 +19,4 @@ An application that allows you to fetch data using Spotify API to create a playl
 ## Tools
 
 - React
-- Framework
 - SpotifyAPI
