@@ -1,5 +1,5 @@
 const clientId = "f6b73961837c4b3ab4aec15b928dedcf";
-const redirectURI = "https://goofy-chain.surge.sh";
+const redirectURI = "http://localhost:8888/callback";
 let accessToken = "";
 
 const Spotify = {
