@@ -19,4 +19,4 @@ A music player application that allows you to fetch data using Rapid API and Sha
 - Vite.js
 - RapidAPI
 - Shazam Core
-- Netlify
+- Cloudflare
