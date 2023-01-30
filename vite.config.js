@@ -1,7 +1,5 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
-import path from "path";
-import vue from "@vitejs/plugin-vue";
 
 const viteEnv = {};
 Object.keys(process.env).forEach((key) => {
@@ -10,10 +8,10 @@ Object.keys(process.env).forEach((key) => {
   }
 });
 
-export default {
+export default defineConfig({
   alias: {
     "@": require("path").resolve(__dirname, "src"),
   },
   define: viteEnv,
-  plugins: [vue()],
-};
+  plugins: [react()],
+});
