@@ -1,22 +1,22 @@
-# Soundwave - Music Playlist Application
+# Soundwave - Music Application
 
 ## Description
 
-An application that allows you to fetch data using Spotify API to create a playlist of songs.
+A music player application that allows you to fetch data using Rapid API and Shazam Core.
 
 ## Features
 
-- Add songs to a playlist
-- Ability to rename your playlist
-- Remove songs from your playlist
-- Search for songs by artist name or album name
-
-## Future Improvements
-
-- When searching for an artist you are able to add songs to your playlist but if you decide to search for another artist to add to the playlist the app restarts and removes our playlist. This could be due to the fact that I have not implemented a backend to this application. Will do so in the near future.
-- Would like to add another component that will display all created playlists with the ability to remove unwanted playlists
+- Fully-fledged Music Player
+- Search for songs, artists, album
+- See lyrics to songs
+- Song exploration features
+- See Popular music around you
+- Worldwide Top Charts view
 
 ## Tools
 
 - React
-- SpotifyAPI
+- Vite.js
+- RapidAPI
+- Shazam Core
+- Netlify
